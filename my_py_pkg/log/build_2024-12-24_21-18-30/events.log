@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000730] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099753] (-) TimerEvent: {}
+[0.199995] (-) TimerEvent: {}
+[0.300257] (-) TimerEvent: {}
+[0.400509] (-) TimerEvent: {}
+[0.461921] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg', 'env': {'LANGUAGE': 'en_SG:en', 'USER': 'notomo', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/notomo', 'OLDPWD': '/home/notomo/ros2_ws/src/my_py_pkg/my_py_pkg', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/notomo/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1728', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/notomo/ros2_ws/install', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'notomo', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'notomo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/notomo-host:@/tmp/.ICE-unix/1503,unix/notomo-host:/tmp/.ICE-unix/1503', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/98f0d8b7_61dc_40e5_a093_baf7c5216e75', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_SG.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.258', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'di=32:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/notomo/ros2_ws/install/my_py_pkg:/home/notomo/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.10/site-packages:/home/notomo/ros2_ws/build/my_py_pkg:/home/notomo/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/notomo/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[0.500611] (-) TimerEvent: {}
+[0.600863] (-) TimerEvent: {}
+[0.658848] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[0.700970] (-) TimerEvent: {}
+[0.776659] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.776874] (my_py_pkg) StdoutLine: {'line': b'creating my_py_pkg.egg-info\n'}
+[0.776956] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[0.777163] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.777297] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[0.777381] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[0.777441] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[0.777670] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.778974] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.779405] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.780362] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[0.780529] (my_py_pkg) StdoutLine: {'line': b'Creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[0.781109] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.781245] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.781334] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.781500] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[0.781583] (my_py_pkg) StdoutLine: {'line': b'Installed /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg\n'}
+[0.781636] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[0.781706] (my_py_pkg) StdoutLine: {'line': b'creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index\n'}
+[0.781751] (my_py_pkg) StdoutLine: {'line': b'creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index/resource_index\n'}
+[0.781814] (my_py_pkg) StdoutLine: {'line': b'creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[0.781855] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/resource/my_py_pkg -> /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[0.781912] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/package.xml -> /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/my_py_pkg\n'}
+[0.801055] (-) TimerEvent: {}
+[0.809655] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.819066] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.819579] (-) EventReactorShutdown: {}

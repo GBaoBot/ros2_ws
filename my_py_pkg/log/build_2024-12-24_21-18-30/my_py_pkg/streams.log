@@ -1,0 +1,26 @@
+[0.463s] Invoking command in '/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg': PYTHONPATH=/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/build --no-deps symlink_data
+[0.658s] running develop
+[0.776s] running egg_info
+[0.776s] creating my_py_pkg.egg-info
+[0.776s] writing my_py_pkg.egg-info/PKG-INFO
+[0.776s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.777s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.777s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.777s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.777s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.778s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.779s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.780s] running build_ext
+[0.780s] Creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.780s] Installing py_node script to /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg
+[0.781s] Installing robot_news_station script to /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg
+[0.781s] Installing smartphone script to /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/my_py_pkg
+[0.781s] 
+[0.781s] Installed /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg
+[0.781s] running symlink_data
+[0.781s] creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index
+[0.781s] creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index/resource_index
+[0.781s] creating /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.781s] symbolically linking /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/resource/my_py_pkg -> /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.781s] symbolically linking /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/package.xml -> /home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/share/my_py_pkg
+[0.809s] Invoked command in '/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg' returned '0': PYTHONPATH=/home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notomo/ros2_ws/src/my_py_pkg/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/notomo/ros2_ws/src/my_py_pkg/build/my_py_pkg/build --no-deps symlink_data

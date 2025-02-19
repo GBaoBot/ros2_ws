@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/notomo/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notomo/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/notomo/ros2_ws/src/build/my_cpp_pkg -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.061s] [ 75%] Built target robot_news_station
+[0.061s] [100%] Built target cpp_node
+[0.070s] Invoked command in '/home/notomo/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notomo/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/notomo/ros2_ws/src/build/my_cpp_pkg -- -j16 -l16
+[0.078s] Invoking command in '/home/notomo/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notomo/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/notomo/ros2_ws/src/build/my_cpp_pkg
+[0.084s] -- Install configuration: ""
+[0.084s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[0.084s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[0.084s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.085s] -- Installing: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.085s] -- Up-to-date: /home/notomo/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.087s] Invoked command in '/home/notomo/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notomo/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/notomo/ros2_ws/src/build/my_cpp_pkg
